@@ -8,6 +8,6 @@ const studentSchema = mongoose.Schema({
   filename: String,
 });
 
-const StudentDetail = mongoose.model("Student", studentSchema);
+const Student = mongoose.model("Student", studentSchema);
 
-export default StudentDetail;
+export default Student;
